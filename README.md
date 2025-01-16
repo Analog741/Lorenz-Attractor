@@ -12,7 +12,7 @@ a chaotic behaviour [1](https://en.wikipedia.org/wiki/Lorenz_system).
 The analog computer is implemented in a circuit. Integration is done by operational amplifiers whith capacitors in their feedback
 loop and the integrated signals are multiplied using an MPY634 multiplexer. Here is the equivalent circuit.
 
-<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/lorenz_ckt_640.JPG" alt="Lorenz attractor circuit" style="width:40%;"/>
+<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/lorenz_ckt_640.jpg" alt="Lorenz attractor circuit" style="width:40%;"/>
 
 ## Experimental Setup
 I used LF411 ICs instead of the original LF412 and instead of the more expensive MPY634, I used an AD633. Here is a picture of the circuit I built together
