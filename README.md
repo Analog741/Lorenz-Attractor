@@ -19,7 +19,7 @@ multiplied using an MPY634 multiplication IC. Here is the circuit which represen
 I used two 741 op-amps  LF411 ICs instead of the original LF412 and instead of the more expensive MPY634, I used an AD633.   
 Here is a picture of the circuit built together with the power supply and oscilloscope.
 
-<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/circuit.JPG" alt="Lorenz attractor circuit" style="width:80%;"/>
+<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/circuit.JPG" alt="Lorenz attractor circuit" style="width:90%;"/>
 
 <img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/setup.JPG" alt="Lorenz attractor setup" style="width:50%;"/>
 
