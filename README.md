@@ -2,7 +2,7 @@
 
 This is a great demonstration of an **analog computer**, taken from a very nice lesson
 from professor [Paul Horowitz](https://youtu.be/DBteowmSN8g?si=P4ycZDwNGiXzkuB8).  
-This is a set of three coupled linear differential equations which for some set of parameters, a, b, and c, will exhibit
+This is a set of three coupled non-linear differential equations which for some set of parameters, a, b, and c, will exhibit
 a chaotic behaviour [1](https://en.wikipedia.org/wiki/Lorenz_system). 
 
 <img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/equations.JPG" alt="Lorenz attractor equation" style="width:40%;"/>
