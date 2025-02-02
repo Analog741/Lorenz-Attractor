@@ -29,8 +29,16 @@ picture of the circuit assembled, along with the power supply and oscilloscope.
 One can also model the response of this system of differential equations using a Python script (**lorenz.py**) which uses the SciPy
 module **odeint** to solve ordinary differential equations.
 
-<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/traj.png" alt="Lorenz attractor setup" style="width:60%;"/>
+<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/traj.png" alt="Lorenz trajectory" style="width:60%;"/>
 
+## SciPy Methods for Solving Differential Equations
+SciPy has two methods for solving ordinary differential equations (ODE)  
+1) [ODEINT](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html): which uses the library lsoda from the FORTRAN library odepack
+2) [solve_ivp](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html#scipy.integrate.solve_ivp): which uses a SciPy routine to numericall integrate the differential equation.  
+
+Clearly ODEINT is more accurate for standard settings as can be seen in the following figure generated with the script: lorenz_methods.py.
+
+<img src="https://github.com/Analog741/Lorenz-Attractor/blob/main/pictures/lorenz_methods.png" alt="SciPy methods for ODEs" style="width:100%;"/>
 
 ## Credits
 Professor Paul Horowitz website:  
